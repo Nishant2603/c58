@@ -1,0 +1,71 @@
+body {
+    margin: 0%;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: aliceblue;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    background: linear-gradient(yellow 0%, purple 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+#About {
+    padding: 50px;
+    font-size: 40px;
+}
+p {
+    max-width: 650px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: chocolate;
+    margin: 6px auto;
+}
+#MName {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 0%;
+}
+.links {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+.links:hover {
+    background-color: bisque;
+}
